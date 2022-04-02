@@ -1,0 +1,27 @@
+/* body */
+body {
+    background: radial-gradient(circle, rgba(242, 236, 239, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+/* accordion style */
+.accordion-button:focus {
+    box-shadow: none
+}
+
+.accordion-button:not(.collapsed) {
+    color: #0a2351;
+    background-color: #E0FFFF;
+}
+
+.accordion-item .accordion-body a{
+    text-decoration: none;
+}
+
+/* modal */
+.modal.show .modal-dialog{
+    padding-top: 15%;
+}
+
+.form-label{
+    width: 100%;
+}
